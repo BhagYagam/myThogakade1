@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.customer.SearchCustomerFormController">
+   <children>
+      <Label alignment="CENTER" prefHeight="74.0" prefWidth="618.0" style="-fx-background-color: #E9967A;" text="Search Customer ">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="125.0" text="Search by ID" />
+      <JFXTextField fx:id="textids" layoutX="202.0" layoutY="119.0" />
+      <JFXTextField fx:id="txtaddresss" layoutX="276.0" layoutY="288.0" />
+      <JFXTextField fx:id="txtnames" layoutX="276.0" layoutY="248.0" />
+      <JFXTextField fx:id="txtnos" layoutX="276.0" layoutY="329.0" />
+      <Label layoutX="164.0" layoutY="253.0" prefHeight="26.0" prefWidth="79.0" text="Name" />
+      <Label layoutX="163.0" layoutY="293.0" prefHeight="26.0" prefWidth="79.0" text="Address" />
+      <Label layoutX="161.0" layoutY="334.0" prefHeight="26.0" prefWidth="93.0" text="Contact Number" />
+      <JFXButton layoutX="428.0" layoutY="116.0" onAction="#btnSeearchOnAction" prefHeight="34.0" prefWidth="79.0" style="-fx-background-color: #BC8F8F;" text="Search" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="164.0" layoutY="211.0" prefHeight="26.0" prefWidth="79.0" text="Id" />
+      <JFXTextField fx:id="txtnids" layoutX="276.0" layoutY="206.0" />
+   </children>
+</AnchorPane>

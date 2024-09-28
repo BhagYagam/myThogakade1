@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="491.0" prefWidth="647.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.customer.AddCustomerFormController">
+   <children>
+      <JFXTextField fx:id="txtid" layoutX="310.0" layoutY="89.0" />
+      <JFXTextField fx:id="txtaddress" layoutX="310.0" layoutY="228.0" />
+      <JFXTextField fx:id="txtname" layoutX="310.0" layoutY="185.0" />
+      <JFXTextField fx:id="txtno" layoutX="310.0" layoutY="269.0" />
+      <Label alignment="CENTER" layoutX="-1.0" prefHeight="74.0" prefWidth="648.0" style="-fx-background-color: #E9967A;" text="Add Customer ">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Label>
+      <Label layoutX="125.0" layoutY="105.0" prefHeight="26.0" prefWidth="79.0" text="Id" />
+      <Label layoutX="125.0" layoutY="190.0" prefHeight="26.0" prefWidth="79.0" text="Name" />
+      <Label layoutX="125.0" layoutY="230.0" prefHeight="26.0" prefWidth="79.0" text="Address" />
+      <Label layoutX="125.0" layoutY="273.0" prefHeight="26.0" prefWidth="93.0" text="Contact Number" />
+      <JFXButton layoutX="530.0" layoutY="397.0" onAction="#btnAddOnAction" prefHeight="34.0" prefWidth="79.0" style="-fx-background-color: #B22222;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></JFXButton>
+      <JFXComboBox fx:id="cmbtitle" layoutX="309.0" layoutY="136.0" prefHeight="26.0" prefWidth="135.0" />
+      <Label layoutX="125.0" layoutY="145.0" prefHeight="26.0" prefWidth="79.0" text="Title" />
+      <Label layoutX="125.0" layoutY="313.0" prefHeight="26.0" prefWidth="79.0" text="DOB" />
+      <JFXButton layoutX="530.0" layoutY="342.0" onAction="#btnClearOnAction" prefHeight="34.0" prefWidth="79.0" style="-fx-background-color: #ADFF2F;" text="Clear" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="125.0" layoutY="350.0" prefHeight="26.0" prefWidth="79.0" text="Salary" />
+      <Label layoutX="126.0" layoutY="384.0" prefHeight="26.0" prefWidth="79.0" text="City" />
+      <Label layoutX="126.0" layoutY="421.0" prefHeight="26.0" prefWidth="79.0" text="Province" />
+      <JFXTextField fx:id="txtsal" layoutX="311.0" layoutY="346.0" />
+      <JFXTextField fx:id="txtcity" layoutX="312.0" layoutY="380.0" />
+      <JFXTextField fx:id="txtprovince" layoutX="312.0" layoutY="418.0" />
+      <Label layoutX="125.0" layoutY="452.0" prefHeight="26.0" prefWidth="79.0" text="Postal Code" />
+      <JFXTextField fx:id="txtpostalcode" layoutX="311.0" layoutY="452.0" />
+      <DatePicker fx:id="datePick" layoutX="310.0" layoutY="316.0" prefHeight="26.0" prefWidth="135.0" />
+   </children>
+</AnchorPane>

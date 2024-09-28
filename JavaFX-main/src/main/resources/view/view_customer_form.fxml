@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="499.0" prefWidth="983.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.customer.ViewCustomerFormController">
+   <children>
+      <Label alignment="CENTER" layoutX="-3.0" layoutY="-1.0" prefHeight="46.0" prefWidth="1041.0" style="-fx-background-color: #E9967A;" text="View Customer ">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tbldata" layoutX="-2.0" layoutY="183.0" prefHeight="245.0" prefWidth="954.0">
+        <columns>
+          <TableColumn fx:id="colid" prefWidth="91.99999690055847" text=" CustID" />
+            <TableColumn fx:id="coltitle" prefWidth="112.00003051757812" text="CustTitle" />
+            <TableColumn fx:id="colname" prefWidth="121.59999084472656" text="CustName" />
+            <TableColumn fx:id="coldob" prefWidth="105.60003662109375" text="DOB " />
+            <TableColumn fx:id="colsalary" prefWidth="108.0" text="salary" />
+            <TableColumn fx:id="coladdress" prefWidth="103.199951171875" text="CustAddress" />
+            <TableColumn fx:id="colcity" prefWidth="96.7999267578125" text="City" />
+            <TableColumn fx:id="colprovince" prefWidth="105.5999755859375" text="Province" />
+            <TableColumn fx:id="colpostalcode" prefWidth="122.39996337890625" text="PostalCode" />
+        </columns>
+      </TableView>
+      <JFXButton layoutX="452.0" layoutY="445.0" onAction="#btnReloadOnAction" prefHeight="39.0" prefWidth="132.0" style="-fx-background-color: #A9A9A9;" text="Reload" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

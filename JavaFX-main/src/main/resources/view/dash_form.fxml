@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="438.0" prefWidth="641.0" style="-fx-background-color: #D8BFD8;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashFormController">
+   <children>
+      <JFXButton alignment="CENTER" layoutX="204.0" layoutY="100.0" onAction="#btnAddCusOnAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #BA55D3;" text="Add Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="204.0" layoutY="267.0" onAction="#btnDeleteOnAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #BC8F8F;" text="Delete Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="203.0" layoutY="211.0" onAction="#btnUpdateCusOnAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #00CED1;" text="Update Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="204.0" layoutY="155.0" onAction="#btnSearchCusOnAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #9ACD32;" text="Search Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <JFXButton alignment="CENTER" layoutX="203.0" layoutY="324.0" onAction="#btnViewCusOAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #808080;" text="View Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+      <Label alignment="CENTER" layoutX="-7.0" prefHeight="74.0" prefWidth="648.0" style="-fx-background-color: #E9967A;" text="Home Page">
+         <font>
+            <Font name="System Bold" size="51.0" />
+         </font>
+      </Label>
+      <JFXButton alignment="CENTER" layoutX="204.0" layoutY="381.0" onAction="#btnItemViewOnAction" prefHeight="42.0" prefWidth="176.0" style="-fx-background-color: #CD5C5C;" text="Item Form" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
